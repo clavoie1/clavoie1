@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @clavoie1 
+- 👋 Hello, world! I’m @clavoie1.
 - 👀 I’m interested in learning more about code and queries.
 - 🌱 I’m currently learning through various tutorials and LinkedIn resources.
 - 😄 Pronouns: she/her
