@@ -1,0 +1,139 @@
+#Cathy Lavoie
+#CIS 115
+#3.2.26
+
+print("\n")
+import time
+
+#Problem 1: Basic If Statement
+
+number = float(input("Enter a number: "))
+if number > 0:
+    print("You entered a positive number. This reflects your positive \
+outlook in life. Everyone loves being around a positive person!")
+print("\n")
+print("Next activity in 3...")
+time.sleep(1)
+print("2...")
+time.sleep(1)
+print("Go time!\n")
+
+#Problem 2: Password check
+
+
+
+user = input("Enter the password: ")
+
+print("\n")
+
+pswd = "$ecr3tpa&&woRd"
+altpswd = "42"
+time.sleep(1)
+if user == pswd:
+    print("Password entered successfully. Launch phase initiated.")
+elif user == altpswd:
+    print("Password entered successfully. Launch phase initiated.")
+else:
+    print("Access denied. System shut-down imminent.\n")
+    time.sleep(1)
+    print("Just kidding...")
+print("\n")
+print("Launching in 3...")
+time.sleep(1)
+print("2...")
+time.sleep(1)
+print("Here we go!")
+time.sleep(1)
+print("\n")
+
+#Problem 3: Coin toss game
+import random
+x = random.randint(0, 1)
+user = int(input("Enter 0 for heads or 1 for tails: "))
+print("\n")
+
+print("The coin landed on", " ", x,".", sep="")
+
+if user >= 2:
+    print("Rebel scum! You can only enter 0 or 1. Lose a turn.")
+
+elif user < 0:
+    print("Rebel scum! You can only enter 0 or 1. Lose a turn.")
+       
+elif user == x:
+    print("You guessed", " ", user,"! You got it right!", sep="")
+
+else:
+    print("You guessed", " ", user, " ", "but the coin landed on ", x,  ". Oh well, maybe you'll get it next time.", sep="")
+
+print("\n")
+print("Prepare for liftoff in 3...")
+time.sleep(1)
+print("2...")
+time.sleep(1)
+print("Here we go!")
+print("\n")
+
+#Problem 4: random number guesser
+import random
+
+x = random.randint(1, 5)
+user = int(input("Can you guess what number this program will randomly generate? Guess an integer (no decmials or fractions) between 1 and 5: "))
+print("\n")
+if user < 1:
+    print("Between 1 and 5, please!")
+
+elif user > 5:
+    print("Between 1 and 5, please!")
+    
+elif user == x:
+    print("Nailed it! You must be psychic!")
+
+elif user > x:
+    print("Whomp whomp. Your guess is too high.")
+    
+else:
+    print("Whomp whomp. Your guess is too low.")
+
+print("\n\n")
+
+print("\n")
+print("It's about to get real.\n")
+time.sleep(3)
+print("Long ago...\n")
+time.sleep(2)
+print("...in a galaxy far, far away...\n")
+time.sleep(2)
+print("...an amateur yet quite skilled Jedi programmer worked on a device \
+to predict the future of all Jedis to come...\n")
+time.sleep(2)
+
+#Problem 6: Magic 8 Ball
+x = random.randint(0, 7)
+user = (input("Ask the all-knowing Magic Star Wars Ball any \"yes\" or \"no\" \
+question you desire answered: "))
+print("\n")
+if x == 0:
+    print("May the Force be with you.")
+elif x == 1:
+    print("Do or do not. There is no try.")
+elif x == 2:
+    print("Your focus determines your reality.")
+elif x == 3:
+    print("You know better than to trust a strange computer!")
+elif x == 4:
+    print("I've got a bad feeling about this.")
+elif x == 5:
+    print("It's a trap!")
+elif x == 6:
+    print("The force is strong with this one.")
+elif x == 7:
+    print("Many of the truths that we cling to depend on our point of view.")
+else:
+    print("Never tell me the odds!")
+
+print("\n")
+print("Thanks for coming to my TedTalk. I'll be hosting a Q&A this afternoon."
+print("\n")
+time.sleep(2)
+
